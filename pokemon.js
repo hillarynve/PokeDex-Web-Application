@@ -35,6 +35,7 @@ function displayPokemons(pokemon) {
   pokemon.forEach((pokemon) => {
     const pokemonID = pokemon.url.split("/")[6];
     const listItem = document.createElement("div");
+    listItem.className = "list-item";
   });
 }
 
